@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public SpriteRenderer ArmorRenderer;
+    public void SetArmor(Sprite newSprite)
     {
-         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        ArmorRenderer.sprite = newSprite;
     }
 }
